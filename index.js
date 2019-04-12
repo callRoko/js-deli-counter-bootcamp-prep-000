@@ -7,7 +7,8 @@ function takeANumber(katzDeliLine, otherDeli){
 function nowServing(katzDeliLine){
   for(i = 1; i < katzDeliLine.length; i++){
     if (katzDeliLine.length > 0){
-      return()
+      return(`Currently serving ${katzDeliLine[i]}.`)
+      
     }
     
   }
